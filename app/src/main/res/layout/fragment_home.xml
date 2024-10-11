@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:padding="16dp"
+    android:background="#7FCED8">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_page"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tvTitle"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvLabelPhone"
+        android:text="@string/phone_number"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_below="@id/tvTitle"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#DEEAEC"
+        android:layout_below="@id/tvLabelPhone"
+        android:id="@+id/edtPhone"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/call_phone"
+        android:layout_below="@id/edtPhone"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnCallPhone"/>
+</RelativeLayout>

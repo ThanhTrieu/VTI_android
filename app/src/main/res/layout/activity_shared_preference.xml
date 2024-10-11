@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/demo_sharedpreferences"
+        android:textSize="24sp"
+        android:layout_gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#AED9DC"
+        android:hint="Enter number 1"
+        android:paddingStart="10dp"
+        android:inputType="number"
+        android:id="@+id/edtNumber_1"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#AED9DC"
+        android:hint="Enter number 2"
+        android:paddingStart="10dp"
+        android:inputType="number"
+        android:id="@+id/edtNumber_2"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#AED9DC"
+        android:hint="Resut"
+        android:paddingStart="10dp"
+        android:inputType="number"
+        android:id="@+id/edtResult"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"
+        android:id="@+id/btnCalculate"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:id="@+id/btnCancel"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/go_to_home"
+        android:id="@+id/btnGoHome"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/actions_history"
+        android:id="@+id/tvHistory"/>
+
+</LinearLayout>
