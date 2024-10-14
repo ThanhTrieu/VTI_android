@@ -110,4 +110,10 @@
     <string name="enter_phone_number">Enter phone number</string>
     <string name="phone_number">Phone number</string>
     <string name="call_phone">Call phone</string>
+    <string name="income">Income</string>
+    <string name="expenses">Expenses</string>
+    <string name="others">Others</string>
+    <string name="todo">ToDo</string>
+    <string name="close_nav">Close Navigation\n</string>
+    <string name="open_nav">Open Navigation\n</string>
 </resources>
